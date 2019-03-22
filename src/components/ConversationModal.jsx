@@ -8,10 +8,10 @@ import { Prompt } from 'react-router-dom';
 import { Form } from 'formsy-react-components';
 import Modal from 'react-modal';
 
-import Milestone from 'models/Milestone';
-import QuillFormsy from 'components/QuillFormsy';
-import LoaderButton from 'components/LoaderButton';
-import MilestoneProof from 'components/MilestoneProof';
+import Milestone from '../models/Milestone';
+import QuillFormsy from './QuillFormsy';
+import LoaderButton from './LoaderButton';
+import MilestoneProof from './MilestoneProof';
 
 /**
   A promise modal to file proof when taking action on a milestone

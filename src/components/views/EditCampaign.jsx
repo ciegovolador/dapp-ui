@@ -5,7 +5,7 @@ import BigNumber from 'bignumber.js';
 import 'react-input-token/lib/style.css';
 
 import { Form, Input } from 'formsy-react-components';
-import GA from 'lib/GoogleAnalytics';
+import GA from '../../lib/GoogleAnalytics';
 import Loader from '../Loader';
 import QuillFormsy from '../QuillFormsy';
 import SelectFormsy from '../SelectFormsy';

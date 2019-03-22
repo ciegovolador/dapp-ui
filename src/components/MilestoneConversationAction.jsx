@@ -3,16 +3,16 @@
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import Milestone from 'models/Milestone';
-import User from 'models/User';
 import BigNumber from 'bignumber.js';
+import Milestone from '../models/Milestone';
+import User from '../models/User';
 
-import DeleteProposedMilestoneButton from 'components/DeleteProposedMilestoneButton';
-import AcceptRejectProposedMilestoneButtons from 'components/AcceptRejectProposedMilestoneButtons';
-import ReproposeRejectedMilestoneButton from 'components/ReproposeRejectedMilestoneButton';
-import RequestMarkMilestoneCompleteButton from 'components/RequestMarkMilestoneCompleteButton';
-import ApproveRejectMilestoneCompletionButtons from 'components/ApproveRejectMilestoneCompletionButtons';
-import WithdrawMilestoneFundsButton from 'components/WithdrawMilestoneFundsButton';
+import DeleteProposedMilestoneButton from './DeleteProposedMilestoneButton';
+import AcceptRejectProposedMilestoneButtons from './AcceptRejectProposedMilestoneButtons';
+import ReproposeRejectedMilestoneButton from './ReproposeRejectedMilestoneButton';
+import RequestMarkMilestoneCompleteButton from './RequestMarkMilestoneCompleteButton';
+import ApproveRejectMilestoneCompletionButtons from './ApproveRejectMilestoneCompletionButtons';
+import WithdrawMilestoneFundsButton from './WithdrawMilestoneFundsButton';
 
 class MilestoneConversationAction extends Component {
   render() {

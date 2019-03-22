@@ -5,14 +5,14 @@ import moment from 'moment';
 import ReactHtmlParser from 'react-html-parser';
 import { Form } from 'formsy-react-components';
 
-import Milestone from 'models/Milestone';
-import User from 'models/User';
 import BigNumber from 'bignumber.js';
-import { getUserName, getUserAvatar } from 'lib/helpers';
-import getNetwork from 'lib/blockchain/getNetwork';
-import MilestoneProof from 'components/MilestoneProof';
-import MilestoneConversationAction from 'components/MilestoneConversationAction';
-import MilestoneItemModel from 'models/MilestoneItem';
+import Milestone from '../models/Milestone';
+import User from '../models/User';
+import { getUserName, getUserAvatar } from '../lib/helpers';
+import getNetwork from '../lib/blockchain/getNetwork';
+import MilestoneProof from './MilestoneProof';
+import MilestoneConversationAction from './MilestoneConversationAction';
+import MilestoneItemModel from '../models/MilestoneItem';
 import Loader from './Loader';
 import { feathersClient } from '../lib/feathersClient';
 

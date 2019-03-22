@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Form, Input } from 'formsy-react-components';
 import BigNumber from 'bignumber.js';
 
-import GA from 'lib/GoogleAnalytics';
+import GA from '../../lib/GoogleAnalytics';
 import Loader from '../Loader';
 import QuillFormsy from '../QuillFormsy';
 import FormsyImageUploader from '../FormsyImageUploader';

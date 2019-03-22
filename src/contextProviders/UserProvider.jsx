@@ -2,7 +2,7 @@ import React, { Component, createContext } from 'react';
 import BigNumber from 'bignumber.js';
 import PropTypes from 'prop-types';
 import { utils } from 'web3';
-import { authenticateIfPossible } from 'lib/middleware';
+import { authenticateIfPossible } from '../lib/middleware';
 import { feathersClient } from '../lib/feathersClient';
 
 import ErrorPopup from '../components/ErrorPopup';

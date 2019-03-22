@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 import { Link } from 'react-router-dom';
 
-import config from 'configuration';
+import config from '../configuration';
 import Loader from './Loader';
 import { getUserName, getUserAvatar } from '../lib/helpers';
 import Donation from '../models/Donation';

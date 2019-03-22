@@ -3,18 +3,18 @@
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import Milestone from 'models/Milestone';
-import User from 'models/User';
 import BigNumber from 'bignumber.js';
+import Milestone from '../models/Milestone';
+import User from '../models/User';
 
-import DeleteProposedMilestoneButton from 'components/DeleteProposedMilestoneButton';
-import AcceptRejectProposedMilestoneButtons from 'components/AcceptRejectProposedMilestoneButtons';
-import ReproposeRejectedMilestoneButton from 'components/ReproposeRejectedMilestoneButton';
-import RequestMarkMilestoneCompleteButton from 'components/RequestMarkMilestoneCompleteButton';
-import CancelMilestoneButton from 'components/CancelMilestoneButton';
-import ApproveRejectMilestoneCompletionButtons from 'components/ApproveRejectMilestoneCompletionButtons';
-import WithdrawMilestoneFundsButton from 'components/WithdrawMilestoneFundsButton';
-import EditMilestoneButton from 'components/EditMilestoneButton';
+import DeleteProposedMilestoneButton from './DeleteProposedMilestoneButton';
+import AcceptRejectProposedMilestoneButtons from './AcceptRejectProposedMilestoneButtons';
+import ReproposeRejectedMilestoneButton from './ReproposeRejectedMilestoneButton';
+import RequestMarkMilestoneCompleteButton from './RequestMarkMilestoneCompleteButton';
+import CancelMilestoneButton from './CancelMilestoneButton';
+import ApproveRejectMilestoneCompletionButtons from './ApproveRejectMilestoneCompletionButtons';
+import WithdrawMilestoneFundsButton from './WithdrawMilestoneFundsButton';
+import EditMilestoneButton from './EditMilestoneButton';
 
 class MilestoneActions extends Component {
   render() {

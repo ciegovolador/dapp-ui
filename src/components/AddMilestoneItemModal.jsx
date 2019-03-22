@@ -9,8 +9,8 @@ import BigNumber from 'bignumber.js';
 import { Input, Form } from 'formsy-react-components';
 import { utils } from 'web3';
 
-import getConversionRatesContext from 'containers/getConversionRatesContext';
-import MilestoneItem from 'models/MilestoneItem';
+import getConversionRatesContext from '../containers/getConversionRatesContext';
+import MilestoneItem from '../models/MilestoneItem';
 import FormsyImageUploader from './FormsyImageUploader';
 import RateConvertor from './RateConvertor';
 

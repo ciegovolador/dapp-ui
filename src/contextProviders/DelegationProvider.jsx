@@ -2,8 +2,8 @@ import React, { Component, createContext } from 'react';
 import PropTypes from 'prop-types';
 import { paramsForServer } from 'feathers-hooks-common';
 
-import { authenticateIfPossible } from 'lib/middleware';
-import Milestone from 'models/Milestone';
+import { authenticateIfPossible } from '../lib/middleware';
+import Milestone from '../models/Milestone';
 import { feathersClient } from '../lib/feathersClient';
 import ErrorPopup from '../components/ErrorPopup';
 

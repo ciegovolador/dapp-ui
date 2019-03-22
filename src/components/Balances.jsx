@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import Campaign from 'models/Campaign';
-import DAC from 'models/DAC';
+import Campaign from '../models/Campaign';
+import DAC from '../models/DAC';
 
 /**
  * Shows a table of balances for a given entity (dac, campaign)

@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import Pagination from 'react-js-pagination';
 import { utils } from 'web3';
 
-import NetworkWarning from 'components/NetworkWarning';
-import { Consumer as Web3Consumer } from 'contextProviders/Web3Provider';
-import config from 'configuration';
+import NetworkWarning from '../NetworkWarning';
+import { Consumer as Web3Consumer } from '../../contextProviders/Web3Provider';
+import config from '../../configuration';
 
-import GA from 'lib/GoogleAnalytics';
+import GA from '../../lib/GoogleAnalytics';
 import { isLoggedIn, checkBalance } from '../../lib/middleware';
 import confirmationDialog from '../../lib/confirmationDialog';
 import Loader from '../Loader';

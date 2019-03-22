@@ -2,10 +2,10 @@ import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import BigNumber from 'bignumber.js';
 
-import Milestone from 'models/Milestone';
-import User from 'models/User';
-import { checkBalance } from 'lib/middleware';
-import { history } from 'lib/helpers';
+import Milestone from '../models/Milestone';
+import User from '../models/User';
+import { checkBalance } from '../lib/middleware';
+import { history } from '../lib/helpers';
 import { Consumer as Web3Consumer } from '../contextProviders/Web3Provider';
 
 class EditMilestoneButton extends Component {

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import BigNumber from 'bignumber.js';
 
 import { Form, Input } from 'formsy-react-components';
-import GA from 'lib/GoogleAnalytics';
+import GA from '../../lib/GoogleAnalytics';
 import Loader from '../Loader';
 import FormsyImageUploader from '../FormsyImageUploader';
 import { checkBalance, checkForeignNetwork, isLoggedIn } from '../../lib/middleware';

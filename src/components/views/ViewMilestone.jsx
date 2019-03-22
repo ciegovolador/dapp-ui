@@ -8,10 +8,10 @@ import ReactHtmlParser, { convertNodeToElement } from 'react-html-parser';
 import { Link } from 'react-router-dom';
 import BigNumber from 'bignumber.js';
 
-import User from 'models/User';
-import Campaign from 'models/Campaign';
+import User from '../../models/User';
+import Campaign from '../../models/Campaign';
 
-import MilestoneActions from 'components/MilestoneActions';
+import MilestoneActions from '../MilestoneActions';
 import { getUserAvatar, getUserName } from '../../lib/helpers';
 
 import BackgroundImageHeader from '../BackgroundImageHeader';

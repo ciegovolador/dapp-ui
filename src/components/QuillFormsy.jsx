@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withFormsy } from 'formsy-react';
 import ReactQuill from 'react-quill';
-import IPFSService from 'services/IPFSService';
+import IPFSService from '../services/IPFSService';
 import config from '../configuration';
 
 import VideoPopup from './VideoPopup';

@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import MilestoneService from 'services/MilestoneService';
-import Milestone from 'models/Milestone';
-import User from 'models/User';
-import ErrorPopup from 'components/ErrorPopup';
-import GA from 'lib/GoogleAnalytics';
+import MilestoneService from '../services/MilestoneService';
+import Milestone from '../models/Milestone';
+import User from '../models/User';
+import ErrorPopup from './ErrorPopup';
+import GA from '../lib/GoogleAnalytics';
 import { Consumer as Web3Consumer } from '../contextProviders/Web3Provider';
 
 class ReproposeRejectedMilestoneButton extends Component {

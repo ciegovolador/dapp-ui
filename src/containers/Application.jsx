@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.min.css';
 
 import Sweetalert from 'sweetalert';
 
-import GA from 'lib/GoogleAnalytics';
+import GA from '../lib/GoogleAnalytics';
 
 import { history } from '../lib/helpers';
 

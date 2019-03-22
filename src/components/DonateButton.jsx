@@ -6,8 +6,8 @@ import { utils } from 'web3';
 import { Form, Input } from 'formsy-react-components';
 import Toggle from 'react-toggle';
 import Slider from 'react-rangeslider';
-import GA from 'lib/GoogleAnalytics';
 import { Link } from 'react-router-dom';
+import GA from '../lib/GoogleAnalytics';
 
 import getNetwork from '../lib/blockchain/getNetwork';
 import User from '../models/User';

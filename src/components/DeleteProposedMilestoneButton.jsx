@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import MilestoneService from 'services/MilestoneService';
-import Milestone from 'models/Milestone';
-import User from 'models/User';
-import ErrorPopup from 'components/ErrorPopup';
-import confirmationDialog from 'lib/confirmationDialog';
+import MilestoneService from '../services/MilestoneService';
+import Milestone from '../models/Milestone';
+import User from '../models/User';
+import ErrorPopup from './ErrorPopup';
+import confirmationDialog from '../lib/confirmationDialog';
 import { Consumer as Web3Consumer } from '../contextProviders/Web3Provider';
 
 const DeleteProposedMilestoneButton = ({ milestone, currentUser }) => {

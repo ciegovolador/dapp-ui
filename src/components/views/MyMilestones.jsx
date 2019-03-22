@@ -5,11 +5,11 @@ import moment from 'moment';
 import Pagination from 'react-js-pagination';
 import BigNumber from 'bignumber.js';
 
-import NetworkWarning from 'components/NetworkWarning';
-import { Consumer as Web3Consumer } from 'contextProviders/Web3Provider';
+import NetworkWarning from '../NetworkWarning';
+import { Consumer as Web3Consumer } from '../../contextProviders/Web3Provider';
 
-import MilestoneActions from 'components/MilestoneActions';
-import { isLoggedIn } from 'lib/middleware';
+import MilestoneActions from '../MilestoneActions';
+import { isLoggedIn } from '../../lib/middleware';
 import Loader from '../Loader';
 import User from '../../models/User';
 import { getTruncatedText, getReadableStatus } from '../../lib/helpers';

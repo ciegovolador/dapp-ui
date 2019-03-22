@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js';
 import { utils } from 'web3';
 
-import { getStartOfDayUTC, cleanIpfsPath } from 'lib/helpers';
+import { getStartOfDayUTC, cleanIpfsPath } from '../lib/helpers';
 import BasicModel from './BasicModel';
 import MilestoneItemModel from './MilestoneItem';
 
