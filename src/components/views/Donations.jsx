@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import moment from 'moment';
 import Pagination from 'react-js-pagination';
 
-import NetworkWarning from '../NetworkWarning';
-import { Consumer as Web3Consumer } from '../../contextProviders/Web3Provider';
-import config from '../../configuration';
+import NetworkWarning from 'components/NetworkWarning';
+import { Consumer as Web3Consumer } from 'contextProviders/Web3Provider';
+import config from 'configuration';
 
 import Loader from '../Loader';
 import { Consumer as UserConsumer } from '../../contextProviders/UserProvider';

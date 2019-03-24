@@ -11,10 +11,10 @@ import PropTypes from 'prop-types';
 import Slider from 'react-rangeslider';
 import 'react-rangeslider/lib/index.css';
 
-import GA from '../lib/GoogleAnalytics';
-import Donation from '../models/Donation';
-import Milestone from '../models/Milestone';
-import Campaign from '../models/Campaign';
+import GA from 'lib/GoogleAnalytics';
+import Donation from 'models/Donation';
+import Milestone from 'models/Milestone';
+import Campaign from 'models/Campaign';
 import { checkBalance } from '../lib/middleware';
 
 import DonationService from '../services/DonationService';

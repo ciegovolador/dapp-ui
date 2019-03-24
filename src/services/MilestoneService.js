@@ -7,12 +7,12 @@ import BigNumber from 'bignumber.js';
 import { utils } from 'web3';
 import { paramsForServer } from 'feathers-hooks-common';
 import { LPPCappedMilestone } from 'lpp-capped-native-milestone';
-import Milestone from '../models/Milestone';
-import { feathersClient } from '../lib/feathersClient';
-import getNetwork from '../lib/blockchain/getNetwork';
-import getWeb3 from '../lib/blockchain/getWeb3';
-import extraGas from '../lib/blockchain/extraGas';
-import DonationService from './DonationService';
+import Milestone from 'models/Milestone';
+import { feathersClient } from 'lib/feathersClient';
+import getNetwork from 'lib/blockchain/getNetwork';
+import getWeb3 from 'lib/blockchain/getWeb3';
+import extraGas from 'lib/blockchain/extraGas';
+import DonationService from 'services/DonationService';
 import IPFSService from './IPFSService';
 import ErrorPopup from '../components/ErrorPopup';
 

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import Avatar from 'react-avatar';
 import ReactHtmlParser from 'react-html-parser';
 
-import Balances from '../Balances';
+import Balances from 'components/Balances';
 import Loader from '../Loader';
 import GoBackButton from '../GoBackButton';
 import BackgroundImageHeader from '../BackgroundImageHeader';

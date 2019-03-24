@@ -6,11 +6,11 @@ import moment from 'moment';
 import Pagination from 'react-js-pagination';
 import BigNumber from 'bignumber.js';
 
-import User from '../../models/User';
+import User from 'models/User';
 
-import NetworkWarning from '../NetworkWarning';
-import { Consumer as Web3Consumer } from '../../contextProviders/Web3Provider';
-import config from '../../configuration';
+import NetworkWarning from 'components/NetworkWarning';
+import { Consumer as Web3Consumer } from 'contextProviders/Web3Provider';
+import config from 'configuration';
 
 import Loader from '../Loader';
 import DelegateButton from '../DelegateButton';

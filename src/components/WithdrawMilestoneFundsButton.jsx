@@ -2,12 +2,12 @@ import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import BigNumber from 'bignumber.js';
 
-import MilestoneService from '../services/MilestoneService';
-import Milestone from '../models/Milestone';
-import User from '../models/User';
-import ErrorPopup from './ErrorPopup';
-import GA from '../lib/GoogleAnalytics';
-import { checkBalance, isLoggedIn } from '../lib/middleware';
+import MilestoneService from 'services/MilestoneService';
+import Milestone from 'models/Milestone';
+import User from 'models/User';
+import ErrorPopup from 'components/ErrorPopup';
+import GA from 'lib/GoogleAnalytics';
+import { checkBalance, isLoggedIn } from 'lib/middleware';
 import { Consumer as Web3Consumer } from '../contextProviders/Web3Provider';
 import DonationService from '../services/DonationService';
 

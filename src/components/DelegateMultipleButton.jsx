@@ -10,10 +10,10 @@ import Slider from 'react-rangeslider';
 import 'react-rangeslider/lib/index.css';
 import InputToken from 'react-input-token';
 
-import Donation from '../models/Donation';
-import Campaign from '../models/Campaign';
-import Milestone from '../models/Milestone';
-import User from '../models/User';
+import Donation from 'models/Donation';
+import Campaign from 'models/Campaign';
+import Milestone from 'models/Milestone';
+import User from 'models/User';
 import { isLoggedIn, checkBalance } from '../lib/middleware';
 import { feathersClient } from '../lib/feathersClient';
 import Loader from './Loader';

@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { utils } from 'web3';
 
-import { getTruncatedText } from '../lib/helpers';
-import MilestoneItemModel from '../models/MilestoneItem';
+import { getTruncatedText } from 'lib/helpers';
+import MilestoneItemModel from 'models/MilestoneItem';
 
 /** *
  * NOTE: This component is created as a Formsy form component
